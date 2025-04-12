@@ -1,0 +1,8 @@
+.env
+.venv
+build
+uv.lock
+./idea
+**/*/*.egg**
+__pycache__
+*.log
