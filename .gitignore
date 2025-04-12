@@ -3,3 +3,4 @@
 build
 uv.lock
 ./idea
+**/*/*.egg**

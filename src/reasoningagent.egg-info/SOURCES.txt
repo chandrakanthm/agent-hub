@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/main.py
-src/reasoningagent.egg-info/PKG-INFO
-src/reasoningagent.egg-info/SOURCES.txt
-src/reasoningagent.egg-info/dependency_links.txt
-src/reasoningagent.egg-info/requires.txt
-src/reasoningagent.egg-info/top_level.txt
