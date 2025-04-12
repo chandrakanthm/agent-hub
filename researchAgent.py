@@ -28,13 +28,13 @@ from agno.agent import Agent
 from agno.models.groq import Groq
 from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.googlesearch import GoogleSearchTools
-from agno.tools.reddit import RedditTools
 from agno.tools.newspaper4k import Newspaper4kTools
-
+from dotenv import load_dotenv
+load_dotenv()
 # Initialize the research agent with advanced journalistic capabilities
 research_agent = Agent(
     model=Groq(id="meta-llama/llama-4-scout-17b-16e-instruct"),
-    tools=[DuckDuckGoTools(), Newspaper4kTools(),GoogleSearchTools(), RedditTools()],
+    tools=[DuckDuckGoTools(), Newspaper4kTools(),GoogleSearchTools()],
     description=dedent("""\
         You are an elite investigative journalist with decades of experience at the New York Times.
         Your expertise encompasses: 📰

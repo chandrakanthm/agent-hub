@@ -1,7 +1,7 @@
 [project]
 name = "AgentHub"
 version = "0.1.0"
-description = "Solving the 'how do agents find each other?' problem in Agno-based multi-agent systems. AgentHub implements a central discovery service – the "Hub" – where agents register using A2A Agent Card formats. This allows complex workflows where an orchestrator can dynamically query the Hub by required skill (e.g., 'web_search'), retrieve the necessary agent's details, and then interact with it directly, promoting decoupled and scalable agent architectures."
+description = "Solving the 'how do agents find each other?' problem in Agno-based multi-agent systems. AgentHub implements a central discovery service – the hub – where agents register using A2A Agent Card formats. This allows complex workflows where an orchestrator can dynamically query the Hub by required skill (e.g., 'web_search'), retrieve the necessary agent's details, and then interact with it directly, promoting decoupled and scalable agent architectures."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
